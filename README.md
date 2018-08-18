@@ -1,2 +1,2 @@
 # hopephdapp
-hopephdapp is an eosio decentralized app
+hopephdapp is an decentralized app
