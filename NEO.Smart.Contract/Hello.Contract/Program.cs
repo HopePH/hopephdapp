@@ -1,5 +1,4 @@
 ﻿using Neo.SmartContract.Framework;
-using Neo.SmartContract.Framework.Services.Neo;
 
 namespace Hello.Contract
 {
@@ -7,7 +6,7 @@ namespace Hello.Contract
     {
         public static void Main(string[] args)
         {
-            Storage.Put(Storage.CurrentContext, "Hello", "World");
+            SmartLogic smartLogic = new SmartLogic();
         }
     }
 }
